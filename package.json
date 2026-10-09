@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.0"
+  },
+  "fitbit": {
+    "appUUID": "e56b3155-0769-4f6f-a192-45bf8fec182b",
+    "appType": "app",
+    "appDisplayName": "Snake",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#8bc34a",
+    "requestedPermissions": [
+      "access_internet",
+      "access_app_cluster_storage"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Snake"
+      }
+    },
+    "defaultLanguage": "en-US",
+    "appClusterID": "millcodes",
+    "developerID": "bdbcdcbd-b5d7-479f-8677-61fa02ab712c"
+  }
+}

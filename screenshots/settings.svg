@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="540" viewBox="0 0 440 540" role="img" aria-labelledby="title description">
+  <title id="title">Snake companion settings preview</title>
+  <desc id="description">A phone settings page with color choices for the snake and game board.</desc>
+  <rect width="440" height="540" rx="24" fill="#edf0e9"/>
+  <text x="32" y="48" fill="#33423a" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">COMPANION SETTINGS</text>
+  <rect x="105" y="62" width="230" height="414" rx="32" fill="#202622"/>
+  <rect x="115" y="72" width="210" height="394" rx="25" fill="#fbfcf8"/>
+  <rect x="190" y="81" width="60" height="5" rx="2.5" fill="#68736a"/>
+  <text x="132" y="117" fill="#426d4d" font-family="Arial, sans-serif" font-size="14">‹</text>
+  <text x="220" y="119" text-anchor="middle" fill="#242b25" font-family="Arial, sans-serif" font-size="14" font-weight="700">Snake Settings</text>
+  <line x1="126" y1="134" x2="314" y2="134" stroke="#e1e5de"/>
+  <text x="134" y="164" fill="#242b25" font-family="Arial, sans-serif" font-size="12" font-weight="700">Snake color</text>
+  <circle cx="148" cy="192" r="11" fill="#ff6347"/><circle cx="182" cy="192" r="11" fill="#d9a36b"/>
+  <circle cx="216" cy="192" r="11" fill="#ffd700"/><circle cx="250" cy="192" r="11" fill="#7fffd4"/>
+  <circle cx="284" cy="192" r="11" fill="#00bfff"/><circle cx="148" cy="224" r="11" fill="#248438"/>
+  <circle cx="182" cy="224" r="11" fill="#00ffff"/>
+  <circle cx="148" cy="224" r="14" fill="none" stroke="#28332a" stroke-width="2"/>
+  <line x1="126" y1="250" x2="314" y2="250" stroke="#e1e5de"/>
+  <text x="134" y="280" fill="#242b25" font-family="Arial, sans-serif" font-size="12" font-weight="700">Board color</text>
+  <circle cx="148" cy="308" r="11" fill="#ff6347"/><circle cx="182" cy="308" r="11" fill="#d9a36b"/>
+  <circle cx="216" cy="308" r="11" fill="#ffd700"/><circle cx="250" cy="308" r="11" fill="#7fffd4"/>
+  <circle cx="284" cy="308" r="11" fill="#00bfff"/><circle cx="148" cy="340" r="11" fill="#248438"/>
+  <circle cx="182" cy="340" r="11" fill="#00ffff"/>
+  <circle cx="182" cy="308" r="14" fill="none" stroke="#28332a" stroke-width="2"/>
+  <rect x="176" y="447" width="58" height="4" rx="2" fill="#68736a"/>
+  <text x="220" y="506" text-anchor="middle" fill="#526057" font-family="Arial, sans-serif" font-size="12">Choose colors for your game</text>
+</svg>

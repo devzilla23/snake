@@ -1,0 +1,81 @@
+<svg>
+  <rect id="backround" x="0" y="0" width="100%" height="100%" fill="sandybrown"/>
+  <defs>
+    <symbol id="snake-head">
+    <g id="g-instance" transform="translate(50%,50%)"> 
+      <animateTransform id="g-transform" attributeType="rotate" from="0" to="90" begin="enable" dur="0.25" final="keep" />
+      <line id ="color_snake" x1="-3" y1="-1" x2="2" y2="-1" class="snake-line"/>
+      <circle fill="black" cx="-2" cy="-4" r="2"/>
+      <circle fill="black" cx="-2" cy="3" r="2"/>
+    </g>
+    </symbol>
+  </defs>
+
+  
+   <text id="score_text" x="30" y="40" text-buffer="score: 0" text-length="15"/>
+ 
+   <line id="snake-body-1" x1="156" y1="156" x2="180" y2="156" display="inline" class="snake-line snake-body"/>
+   <line id="snake-body-2" x1="156" y1="156" x2="156" y2="180" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-3" x1="163" y1="156" x2="130" y2="156" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-4" x1="156" y1="156" x2="156" y2="130" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-5" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-6" x1="0" y1="0" x2="0" y2="0" display="none"  class="snake-line snake-body"/>
+  <line id="snake-body-7" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-8" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-9" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-10" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-11" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-12" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-13" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-14" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-15" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-16" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-17" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-18" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-19" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-20" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-21" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-22" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-23" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-24" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-25" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-26" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-27" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-28" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-29" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-30" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-31" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-32" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-33" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-34" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-35" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-36" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-37" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-38" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-39" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-40" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-41" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-42" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-43" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-44" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-45" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-46" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-47" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-48" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-49" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <line id="snake-body-50" x1="0" y1="0" x2="0" y2="0" display="none" class="snake-line snake-body"/>
+  <svg id="snake" x="150" y="150" height="15" width="15">
+   <use id="snake-head-use" href="#snake-head"/>
+  </svg>
+  <rect id="test-mid" x="0" y="0" height="3" width="3" display="none"/>
+  <image id="apple" x="100" y="100" width="16" height="16" href="appleV2.png" />
+  <svg x="50%" y="50%+15">
+    <text id="demotext" x="0" y="0">Snake!</text>
+    <text id="start-text" x="0" y="$">Tap to Start</text>   
+  </svg>
+ 
+  <rect id="mouse-handle" x="0" y="0" height="100%" width="100%" fill="white" pointer-events="visible"/>
+  
+  <!-- USE KPAY UI CODE - DO NOT MODIFY BELOW THIS LINE - ADD ALL OWN UI CODE ABOVE THIS LINE -->
+  <g layer="10000"><use href="#kpay" /></g>
+</svg>

@@ -1,0 +1,32 @@
+
+#demotext {
+  fill: black;
+  font-size: 32;
+  font-family: System-Regular;
+  font-weight: bold;
+  text-anchor: middle;
+  text-length: 99;
+}
+
+#start-text {
+  fill: black;
+  font-size: 24;
+  font-family: System-Regular;
+  font-weight: bold;
+  text-anchor: middle;
+  text-length: 99;
+}
+
+#mouse-handle {
+  opacity: 0.1;
+}
+
+.snake-line {
+  stroke-linecap: round;
+  stroke-width: 15;
+  fill: green;
+}
+
+#test-mid {
+  fill: red;
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="540" viewBox="0 0 440 540" role="img" aria-labelledby="title description">
+  <title id="title">Snake start screen preview</title>
+  <desc id="description">A Fitbit watch showing the Snake game start screen, score, snake, and apple.</desc>
+  <rect width="440" height="540" rx="24" fill="#edf0e9"/>
+  <text x="32" y="48" fill="#33423a" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">WATCH GAME</text>
+  <rect x="117" y="130" width="206" height="206" rx="40" fill="#202622"/>
+  <rect x="321" y="208" width="9" height="50" rx="4" fill="#4c564e"/>
+  <rect x="128" y="141" width="184" height="184" rx="28" fill="#3a413c"/>
+  <defs>
+    <clipPath id="app-screen-clip">
+      <rect width="336" height="336" rx="68"/>
+    </clipPath>
+  </defs>
+  <rect x="137" y="150" width="166" height="166" rx="34" fill="#f4a460"/>
+  <g clip-path="url(#app-screen-clip)" transform="translate(137 150) scale(0.494047619)">
+    <text x="30" y="40" fill="black" font-family="Arial, sans-serif" font-size="16">score: 0</text>
+    <image x="100" y="100" width="16" height="16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAJVJREFUOE9jZKAQMOLTn6Fv9n/GxVOM0ts9/4PUPfXcjqGeoAGbO4RR7EA3hGgDsNkOMpkoA3BpxmrAfz0TsH9BIJORiWH6/38oXmC8dAbFUhQOWPPF0xAN+qY4wxfZELgBKJoJGAB2OtQl2A3AYzvMWdgNICFRDUIDQK5HjkJ8vsEaCzANhAzBmw4IGYKumWBSJiZSAGARSBEGv7imAAAAAElFTkSuQmCC"/>
+    <line x1="156" y1="156" x2="180" y2="156" stroke="#008000" stroke-width="15" stroke-linecap="round"/>
+    <g transform="translate(157.5 157.5)">
+      <line x1="-3" y1="-1" x2="2" y2="-1" stroke="#008000" stroke-width="15" stroke-linecap="round"/>
+      <circle cx="-2" cy="-4" r="2" fill="black"/>
+      <circle cx="-2" cy="3" r="2" fill="black"/>
+    </g>
+  </g>
+  <text x="220" y="255" text-anchor="middle" fill="#151813" font-family="Arial, sans-serif" font-size="17" font-weight="700">Snake!</text>
+  <text x="220" y="275" text-anchor="middle" fill="#151813" font-family="Arial, sans-serif" font-size="12" font-weight="700">Tap to Start</text>
+  <text x="220" y="506" text-anchor="middle" fill="#526057" font-family="Arial, sans-serif" font-size="12">Swipe to steer</text>
+</svg>
